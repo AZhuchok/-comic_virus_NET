@@ -3,6 +3,8 @@ from time import sleep
 import _thread
 import pygame
 
+# Created by Artiom
+
 system_pids = []
 pids = []
 first_start = True
@@ -51,6 +53,7 @@ def pid_to_list():
 
 def main():
     global system_pids, pids, first_start
+    print('Created by Artiom ;)')
     while True:
         if first_start:
             system_pids = pid_to_list()
